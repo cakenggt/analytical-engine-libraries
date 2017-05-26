@@ -1,4 +1,5 @@
 var fs = require('fs');
+var path = require('path');
 
 const start = 3;
 
@@ -58,4 +59,4 @@ L002
 total += `
 . comment to keep the chain from running off the engine`;
 
-fs.writeFileSync('get.ae', total);
+fs.writeFileSync(path.resolve('..', 'Library', 'get.ae'), total);

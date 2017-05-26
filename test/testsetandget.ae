@@ -3,9 +3,9 @@ A write annotation set slot 100 with 500
 A write new line
 N000 100
 N001 500
-A include cards set
+A include cards ../Library/set
 N000 100
-A include cards get
+A include cards ../Library/get
 N001 0
 +
 L000
