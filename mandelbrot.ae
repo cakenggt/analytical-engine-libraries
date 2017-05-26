@@ -1,0 +1,142 @@
+  Mandelbrot code
+  Outputs at V000 the number of iterations to escape,
+  up to and including the maximum iterations
+
+  v010 is -1
+  V011 is 0
+  V012 is 1
+  V013 is 2
+  V014 is original real
+  V015 is original imaginary
+  V016 is max iterations
+  V017 is current real
+  V018 is current imaginary
+  V019 is current iteration
+  V020 is square of current real R^2
+  V021 is square of current imaginary i^2
+  V022 is imaginary part of 2Ri
+  V023 is new real
+  V024 is new im
+
+N010 -1
+N011 0
+N012 1
+N013 2
+
++
+ load real
+L000
+L011
+S014
+
+ load im
+L001
+L011
+S015
+
+ load max iterations
+L002
+L011
+S016
+
+ copy real to current real and imaginary
+L014
+L011
+S017
+
+ copy imaginary to current real and imaginary
+L015
+L011
+S018
+
+ initialize -1 as the current iteration
+L010
+L011
+S019
+
+(?
+  increase current iteration count by 1
++
+L019
+L012
+S019
+  square current real, it stays real, store it in R^2
+*
+L017
+L017
+>
+S020
+  square current im, store it in i^2
+*
+L018
+L018
+>
+S021
+  load square of im, then multiply by -1, it becomes real, store it in i^2
+*
+L021
+L010
+S021
+  multiply current real and current im, it becomes imaginary, store in 2Ri
+*
+L017
+L018
+>
+S022
+  load 2Ri, multiply by 2, store in new im
+*
+L022
+L013
+S024
+  add R^2 and i^2, stays real, store in new real
++
+L020
+L021
+S023
+  add original real to new real, store in new real and current real
++
+L014
+L023
+S023
+S017
+  add original im to new im, store in new im and current im
++
+L015
+L024
+S024
+S018
+  square new real and store in new real
+*
+L023
+L023
+>
+S023
+  square new im and store in new im
+*
+L024
+L024
+>
+S024
+  add squared new real and squared new im together and store in V000
++
+L023
+L024
+S000
+  sqrt
+A include from library cards for sqrt
+  subtract V000 from 2 (after you shift 2 to the left). The looping statement will be skipped if magnitude is greater than 2
+-
+L013
+<
+L000
+CF?5
+  load the current iterations, subtract the max iterations. this will set the lever to repeat the whole process while max is greater than current
+-
+L019
+L016
+)
+  load current iteration, add 0, store at 000
++
+L019
+L011
+S000

@@ -1,0 +1,98 @@
+A set decimal places to 7
+A write numbers as +9.9999999
+A write in columns
+
+  start of iterating pattern
+
+  V100 start y
+  V101 start x
+  V102 end y
+  V103 end x
+  V104 pixel size in units
+  V105 limit for escape character
+  V106 0
+  V107 current y
+  V108 current x
+  V109 temporary storage for current y minus end y
+  V110 temporary storage for end x minus current x
+
+  copy start y to current y
+
+N100 1.0
+N101 -2.0
+N102 -1.0
+N103 1.0
+N104 0.04
+N105 20
+
++
+L100
+L106
+S107
+
+(?
+  copy start x to current x
++
+L101
+L106
+S108
+(?
+  mandelbrot with x and y
++
+L108
+L106
+S000
+
++
+L107
+L106
+S001
+
++
+L105
+L106
+S002
+
+A include cards mandelbrot
+
+  subtract V000 from escape character
+-
+L000
+L105
+
+{?
+A write annotation #
+}{
+A write annotation .
+}
+  add pixel size to current x
++
+L108
+L104
+S108
+  load current x and subtract end x
+-
+L103
+L108
+S110
+
+-
+L106
+L110
+)
+A write new line
+  load current y and subtract pixel size (to lower line)
+-
+L107
+L104
+S107
+  load current y and subtract end y
+-
+L107
+L102
+S110
+
+-
+L106
+L110
+)
