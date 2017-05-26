@@ -1,0 +1,14 @@
+A write in columns
+A write annotation set slot 100 with 500
+A write new line
+N000 100
+N001 500
+A include cards set
+N000 100
+A include cards get
+N001 0
++
+L000
+L001
+A write annotation 500=
+P
