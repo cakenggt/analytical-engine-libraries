@@ -1,0 +1,2458 @@
+. This library writes a character in annotation mode represented by the char code provided
+
+. v0 is the char code to write
+N001 1
+. v2 is the counter
+N002 29
+
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation 
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation 
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation  
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation !
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation "
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation #
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation $
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation %
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation &
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation '
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation (
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation )
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation *
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation +
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation ,
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation -
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation .
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation /
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation 0
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation 1
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation 2
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation 3
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation 4
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation 5
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation 6
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation 7
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation 8
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation 9
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation :
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation ;
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation <
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation =
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation >
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation ?
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation @
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation A
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation B
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation C
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation D
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation E
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation F
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation G
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation H
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation I
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation J
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation K
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation L
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation M
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation N
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation O
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation P
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation Q
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation R
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation S
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation T
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation U
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation V
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation W
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation X
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation Y
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation Z
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation [
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation \
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation ]
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation ^
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation _
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation `
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation a
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation b
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation c
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation d
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation e
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation f
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation g
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation h
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation i
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation j
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation k
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation l
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation m
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation n
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation o
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation p
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation q
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation r
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation s
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation t
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation u
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation v
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation w
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation x
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation y
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation z
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation {
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation |
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation }
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation ~
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+{?
+. these blocks will run until it reaches the index it wants
++ . increment counter
+L002
+L001
+S002
+. subtract index from counter to see if negative
+-
+L002
+L000
+. if this was positive, you have found your get index
+{?
+. print character
+A write annotation 
+. do a negative calculation to set run up lever
+-
+L001
+L002
+}{
+. reset the run-up lever if this wasn't your index
++
+L001
+L002
+}
+}
+. comment to keep the chain from running off the engine
