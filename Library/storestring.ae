@@ -1,0 +1,73 @@
+. v0 is the index where the string will be stored
+. v4-26 is where the string resides
+. v27 is temp storage of string
+. v28 is 1
+. v29 is counter, initialized to 1
+. v30 is 27
+. v31 is index string will be stored at, copied over from v0
+. v32 is 128
+. v33 is current multiplication value, starts at 1
+
+N027 0
+N028 1
+N029 3
+N030 27
+N032 128
+N033 1
+. copy v0 to v28
++
+L027
+L000
+S031
+
+(?
+. load counter index into v0
+*
+L028
+L029
+S000
+
+. get char value at counter index
+A include cards get
+
+. multiply char by multiplication value and store in char
+*
+L000
+L033
+S000
+
+. add char to temp variable and store in temp variable
++
+L000
+L027
+S027
+
+. increment power of multiplication variable
+*
+L033
+L032
+S033
+
+. increment counter
++
+L028
+L029
+S029
+
+. subtract 27 from counter
+. if it is negative, repeat
+-
+L029
+L030
+)
+
+. store temp string in final index
+*
+L031
+L028
+S000
+*
+L027
+L028
+S001
+A include cards set

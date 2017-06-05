@@ -12,10 +12,17 @@ var total = `. This library writes a character in annotation mode represented by
 N001 1
 . v2 is the counter
 N002 ${start-1}
-. Make sure the run-up lever is reset
-+
+. check for index too low and halt if true
+-
+L002
+L000
+{?
+H Cannot print characters lower than ${start}
+}{
++ . reset run-up lever
 L001
 L001
+}
 `;
 
 for (let i = start; i < 128; i++) {
@@ -50,4 +57,4 @@ L002
 total += `
 . comment to keep the chain from running off the engine`;
 
-fs.writeFileSync(path.resolve('..', 'Library', 'printstr.ae'), total);
+fs.writeFileSync(path.resolve('..', 'Library', 'printchar.ae'), total);

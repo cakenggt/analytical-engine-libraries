@@ -52,3 +52,32 @@ L002
 }
 }
 ```
+
+# Performing an operation an exact number of times
+
+If you want to have a conditional back card repeat over a certain code section a given number of times, you can set up the code in the following way to avoid wasting variables. Assume that v0 is the number of times you need to loop. Insert 1 at v1. Add 1 to v0 and store at v0, which is our counter. Now create a conditional loop. At the end of that conditional loop, decrement v0 by 1. Now subtract v0 from v1, which will be negative X times, where X is equal to v0.
+
+```
+N001 1
+. add 1 to v0 and store in v0
++
+L001
+L000
+S000
+(?
+. repeated code goes here
+. decrement counter
+-
+L000
+L001
+S000
+. perform 1-counter
+-
+L001
+L000
+)
+```
+
+# Strings in the Analytical Engine
+
+Strings can be thought of as a base-128 number, if we are only using ASCII characters. This implementation of storestring.ae and printstring.ae reverses the strings, making the first character of the string represent the lowest exponent of 128 in the stored number. In this way, we can store up to 23 characters in a single column (50 digit base-10 number).

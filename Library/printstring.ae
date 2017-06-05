@@ -1,0 +1,55 @@
+. v0 is the index of the string to print
+. v3 is the compressed string
+. v4 is the counter of loops
+. v5 is the limit of counting, which is 23
+. v6 is 128
+. v7 is 1
+
+N003 0
+N004 0
+N005 23
+N006 128
+N007 1
+
+. get number at index specified in v0
+A include cards ../Library/get
+. store at v3
++
+L003
+L000
+S003
+(?
+. divide compressed string by 128
+/
+L003
+L006
+. store quotient in compressed string
+S003'
+. store remainder in v0
+S000
+
+. check if character is 0, if so, skip to end
+-
+L000
+L007
+{?
+. print char at v0
+A include cards ../Library/printchar
+
+. increment counter
++
+L007
+L004
+S004
+
+. subtract counter limit from counter
+-
+L004
+L005
+}{
+. reset lever
++
+L007
+L007
+}
+)

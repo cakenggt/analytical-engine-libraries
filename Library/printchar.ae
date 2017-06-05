@@ -7,10 +7,17 @@
 N001 1
 . v2 is the counter
 N002 29
-. Make sure the run-up lever is reset
-+
+. check for index too low and halt if true
+-
+L002
+L000
+{?
+H Cannot print characters lower than 30
+}{
++ . reset run-up lever
 L001
 L001
+}
 
 {?
 . these blocks will run until it reaches the index it wants
