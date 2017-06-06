@@ -53,7 +53,7 @@ L105
 L106
 S002
 
-A include cards mandelbrot
+A include cards Library/mandelbrot
 
   subtract V000 from escape character
 -

@@ -1,0 +1,10 @@
+N000 100
+N001 500
+A include cards Library/set
+N000 100
+A include cards Library/get
+N001 0
++
+L000
+L001
+P

@@ -7,8 +7,11 @@ N005 108 . l
 N006 108 . l
 N007 111 . o
 N101 1
-A include cards ../Library/storestring
+A include cards Library/storestring
 
 N000 100
-A include cards ../Library/printstring
+A include cards Library/printstring
 . should print Hello
++ . prevents card chain from falling out
+L000
+L000

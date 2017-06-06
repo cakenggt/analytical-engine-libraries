@@ -12,7 +12,7 @@ N006 128
 N007 1
 
 . get number at index specified in v0
-A include cards ../Library/get
+A include cards Library/get
 . store at v3
 +
 L003
@@ -34,7 +34,7 @@ L000
 L007
 {?
 . print char at v0
-A include cards ../Library/printchar
+A include cards Library/printchar
 
 . increment counter
 +

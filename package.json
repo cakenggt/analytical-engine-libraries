@@ -1,0 +1,28 @@
+{
+  "name": "analytical-engine-libraries",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cakenggt/analytical-engine-libraries.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cakenggt/analytical-engine-libraries/issues"
+  },
+  "homepage": "https://github.com/cakenggt/analytical-engine-libraries#readme",
+  "devDependencies": {
+    "ava": "^0.19.1"
+  },
+  "dependencies": {
+    "analytical-engine": "0.0.1"
+  }
+}

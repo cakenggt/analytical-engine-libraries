@@ -28,7 +28,7 @@ L029
 S000
 
 . get char value at counter index
-A include cards get
+A include cards Library/get
 
 . multiply char by multiplication value and store in char
 *
@@ -70,4 +70,4 @@ S000
 L027
 L028
 S001
-A include cards set
+A include cards Library/set

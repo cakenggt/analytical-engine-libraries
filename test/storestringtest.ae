@@ -5,7 +5,7 @@ N005 108 . l
 N006 108 . l
 N007 111 . o
 N101 1
-A include cards ../Library/storestring
+A include cards Library/storestring
 
 .v100 should be 30024610504
 *

@@ -1,0 +1,27 @@
+A write in columns
+N000 72 . H
+A include cards Library/printchar
+N000 101 . e
+A include cards Library/printchar
+N000 108 . l
+A include cards Library/printchar
+A include cards Library/printchar
+N000 111 . o
+A include cards Library/printchar
+N000 32 . space
+A include cards Library/printchar
+N000 87 . W
+A include cards Library/printchar
+N000 111 . o
+A include cards Library/printchar
+N000 114 . r
+A include cards Library/printchar
+N000 108 . l
+A include cards Library/printchar
+N000 100 . d
+A include cards Library/printchar
+N000 33 . !
+A include cards Library/printchar
++ . this is to prevent the card chain from falling out
+L000
+L000

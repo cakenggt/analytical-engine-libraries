@@ -62,7 +62,7 @@ N128 902
 N129 022
 N130 002
 
-A include cards ../Library/lmc
+A include cards Library/lmc
 
 . correct output will be
 . 22

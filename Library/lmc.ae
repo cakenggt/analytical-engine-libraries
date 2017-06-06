@@ -33,7 +33,7 @@ S53
 L51
 L53
 S0
-A include cards get
+A include cards Library/get
 *
 L51
 L0
@@ -89,7 +89,7 @@ L50
 L56
 S000
 . get value of store in index of mailbox
-A include cards get
+A include cards Library/get
 . add value gotten to accumulator value and store in accumulator
 +
 L000
@@ -120,7 +120,7 @@ L50
 L56
 S000
 . get value of store in index of mailbox
-A include cards get
+A include cards Library/get
 . subtract value from accumulator value and store in accumulator
 -
 L57
@@ -179,7 +179,7 @@ L57
 S001
 
 . sets the mailbox specified to accumulator value
-A include cards set
+A include cards Library/set
 }
 }
 
@@ -202,7 +202,7 @@ L56
 S000
 
 . get value at the specified index
-A include cards get
+A include cards Library/get
 
 . store the gotten value in the accumulator
 *
@@ -406,7 +406,7 @@ A write annotation :
 L51
 L201
 S000
-A include cards get
+A include cards Library/get
 *
 L51
 L000
