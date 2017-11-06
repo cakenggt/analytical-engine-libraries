@@ -1,0 +1,50 @@
+. This program is used to calculate the result of X being raised to the power
+. of Y
+. Calculates the value at 000 raised to the value at 001 and stores it
+. in 000. Prints the result
+. Example values are 2 and 3
+
+N000 2 . X
+N001 3 . Y
+N002 1 . The constant 1
+N003 0 . The constant 0
+N004 1 . Intermediate result
+
+     . Beginning of conditional loop. This loop will be repeated while the
+     . mill's lever is thrown
+(?
+     . Set up the machine for a subtraction.
+     . We will start off by subtracting 1 from Y and will continue to do this
+     . every loop until the calculation is finished
+-
+L001 . Load Y
+L002 . Load the constant 1 and subtract it from Y
+S001 . Store the result in Y's slot
+
+     . Now we are ready to start multiplying
+*    . Set the machine up for multiplication
+L000 . Load up X
+L004 . Load up the intermediate value and multiply it by X
+S004 . Store the intermediate value
+
+     . Now we will check to see if the loop should continue
+     . Keep in mind the loop will continue if the result of
+     . a subtraction is negative
+-    . Set up a subtraction
+L003 . Load up the constant 0
+L001 . Load up the Y value we keep decrementing
+)
+     . Once you reach this part, it means that Y was decremented to the
+     . point that it became 0
+     . Save the intermediate value in 000
++
+L004 . Load the intermediate result
+L003 . Load 0
+S000 . Save the result in 000
+
+     . In order to print a value, it has to be the result of some calculation
+     . We will multiply the result of the power calculation by 1
+*
+L002 . The constant 1
+L000 . The result of the power calculation
+P
